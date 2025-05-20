@@ -342,7 +342,7 @@
   margin-bottom: 40px;
 }
 
-.phas-list{
+.phas-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -521,7 +521,7 @@
   /* Cust style */
   .cust-area {
     background-color: #f9b800;
-    padding: 40px 20px 40px 20px;
+    padding: 40px 138px 40px 138px;
   } /*do position here*/
 
   .cust {
@@ -576,5 +576,63 @@
   .cust-arr {
     justify-content: start;
     gap: 40px;
+  }
+
+  /* Phas style */
+
+  .phas-area {
+    background-color: #262626;
+  }
+
+  .phas {
+    padding: 172px 111px 108px 164px;
+  }
+
+  .phas-title {
+    margin-bottom: 14px;
+
+    font-size: 60px;
+    line-height: 72px; /* 120% */
+  }
+
+  .phas-sub {
+    margin-bottom: 90px;
+    font-size: 30px;
+
+    line-height: 40px; /* 133.333% */
+  }
+
+  .phas-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .phas-list-item {
+    display: flex;
+    padding: 60px 66px 66px 90px;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    justify-content: space-between;
+
+    max-width: 1650px;
+    height: fit-content;
+    flex-shrink: 0;
+
+    border-radius: 60px;
+    background-color: #fff;
+  }
+
+  .phas-l-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .phas-plus svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .phas-l-info {
+    font-size: 30px;
   }
 }
