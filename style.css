@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+/* hero style */
+
 .hero-area {
   /* margin: 0px 17px; */
   background-color: #feedbc;
@@ -22,7 +24,7 @@
 
 .nav-bg {
   background-color: #feedbc;
-  /* padding: 0px 13px; */
+  padding: 0px 13px;
   padding-top: 50px;
 }
 
@@ -120,6 +122,8 @@
   flex-shrink: 0;
 }
 
+/* Integer style */
+
 .intgr {
   background-color: #262626;
   padding: 71.82px 20px 30px 20px;
@@ -161,6 +165,77 @@
 
   border-radius: 3846.154px;
   background: #fff;
+}
+
+/* Card style */
+
+.integer-card {
+  margin: 55px 0px 30px 0px;
+}
+
+.card-itm {
+  padding: 47px 47px 54px 47px;
+  margin-bottom: 30px;
+  width: 335px;
+  height: 382.857px;
+  flex-shrink: 0;
+
+  border-radius: 57.429px;
+  background-color: #fff;
+}
+
+.card-itm:nth-child(even) {
+background-color:  #F9B800;
+}
+
+.card-img img {
+  width: 57.429px;
+  height: 57.429px;
+  flex-shrink: 0;
+
+  margin-bottom: 22px;
+}
+
+.card-num {
+  color: #262626;
+
+  font-size: 68.914px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dot {
+  color: #f9b800;
+}
+
+.card-title {
+  margin-top: 10px;
+
+  color: #262626;
+  font-size: 22.971px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-sub {
+  margin-top: 18px;
+
+  font-size: 19.143px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-sub2 {
+  color: #262626;
+
+  font-size: 17.229px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 /* 1920px */
@@ -239,4 +314,6 @@
     min-width: 714px;
     height: 714px;
   }
+
+  
 }
