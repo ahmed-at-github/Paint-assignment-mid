@@ -184,8 +184,14 @@
   background-color: #fff;
 }
 
-.card-itm:nth-child(even) {
-background-color:  #F9B800;
+.card-itm:nth-child(2) {
+
+  background-color: #f9b800;
+}
+
+.card-itm:nth-child(4) {
+
+  background-color: #f9b800;
 }
 
 .card-img img {
@@ -292,7 +298,7 @@ background-color:  #F9B800;
 
   .hero-title {
     margin-bottom: 60px;
-    padding-right: 250px;
+    /* padding-right: 250px; */
 
     font-size: 80px;
     line-height: 90px;
@@ -315,5 +321,145 @@ background-color:  #F9B800;
     height: 714px;
   }
 
-  
+  /* Integer style */
+
+  .intgr {
+    background-color: #262626;
+    padding: 0px 258px 0px 201px;
+    display: flex;
+  }
+  .integer-text {
+    margin: 432px 0px 1058px 0px;
+    margin-right: 176px;
+  }
+  .int-sub {
+    color: #f9b800;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+
+  .int-title {
+    color: #fff;
+    margin-bottom: 60px;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .int-slide {
+    display: flex;
+    width: 350px;
+    padding: 22px 50px 24px 50px;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #262626;
+    font-size: 18.462px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border-radius: 3846.154px;
+    background: #fff;
+  }
+
+  /* Card style */
+
+  .integer-card {
+    margin: 165px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 400px 400px;
+    row-gap: 60px;
+    column-gap: 60px; 
+    
+    
+  }
+
+  .card-itm {
+    padding: 47px 47px 54px 47px;
+    margin-bottom: 0px;
+    width: 335px;
+    height: 382.857px;
+    flex-shrink: 0;
+
+    border-radius: 57.429px;
+    background-color: #fff;
+  }
+
+ .card-itm:nth-child(3) {
+
+    background-color: #f9b800;
+}
+
+ .card-itm:nth-child(4) {
+  margin-top: 300px;
+     background-color: #fff;
+}
+
+.card-itm:nth-child(2) {
+  margin-top: 107px; /*60px*/
+  background-color: #f9b800;
+}
+
+.card-itm:nth-child(5) {
+  background-color: #fff;
+}
+
+  .card-img img {
+    width: 57.429px;
+    height: 57.429px;
+    flex-shrink: 0;
+
+    margin-bottom: 22px;
+  }
+
+  .card-num {
+    color: #262626;
+
+    font-size: 68.914px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .dot {
+    color: #f9b800;
+  }
+
+  .card-title {
+    margin-top: 10px;
+
+    color: #262626;
+    font-size: 22.971px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .card-sub {
+    margin-top: 18px;
+
+    font-size: 19.143px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .card-sub2 {
+    color: #262626;
+
+    font-size: 17.229px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    text-transform: capitalize;
+  }
 }
