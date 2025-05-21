@@ -513,7 +513,7 @@
     display: flex;
   }
   .integer-text {
-    margin: 432px 0px 1058px 0px;
+    margin: 432px 0px 768px 0px;
     margin-right: 176px;
   }
 
@@ -569,7 +569,8 @@
 
   .cust {
     padding: 100px 135px 100px 135px;
-
+    position: relative;
+    bottom: 173px;
     width: 1650px;
     height: 672px;
     flex-shrink: 0;
