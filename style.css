@@ -318,7 +318,7 @@
 }
 
 .phas {
-  padding: 123px 20px 0px 20px;
+  padding: 123px 20px 64px 20px;
 }
 
 .phas-title {
@@ -383,6 +383,49 @@
   font-weight: 350;
   line-height: normal;
   text-transform: capitalize;
+}
+
+/* Footer style */
+
+.footer {
+  padding: 40px 20px 50px 20px;
+  background-color: #feedbc;
+}
+
+.f-title {
+  color: #262626;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.copy {
+  margin-top: 66px;
+  margin-bottom: 7px;
+  color: #262626;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.f-link {
+  color: #262626;
+  /* text-align: right; */
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 170% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 /* 1920px */
@@ -621,10 +664,14 @@
     border-radius: 60px;
     background-color: #fff;
   }
-
-  .phas-l-title {
+  .phas-l-title:nth-child(1) {
     font-size: 30px;
     margin-bottom: 20px;
+  }
+  .phas-l-title {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin: auto 0;
   }
 
   .phas-plus svg {
@@ -634,5 +681,43 @@
 
   .phas-l-info {
     font-size: 30px;
+  }
+
+  /* Footer style */
+
+  .footer {
+    padding: 68px 176px 115px 221px;
+    background-color: #feedbc;
+  }
+
+  .footer-t {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+  }
+
+  .f-title {
+    font-size: 50px;
+    width: 713.136px;
+
+    margin-bottom: 0px;
+  }
+
+  .footer-b {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copy {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 20px;
+  }
+
+  .f-link {
+    text-align: right;
+
+    font-size: 20px;
   }
 }
